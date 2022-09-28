@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    background-image: url(./istockphoto-856678994-612x612.jpg);
+    
+}
+h1{
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: wheat;
+}
+h2{margin-right: auto;
+    color: whitesmoke;
+}
+p{
+    margin: auto;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
