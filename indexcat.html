@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width", initial scale 1>
         <title>Goofy ahh cats</title>
         <link rel="stylesheet" href="indexcat.css">
+        <script src="./indexcat.js"></script>
         <style>
             .textborder{
                 border: 2px solid black;
                 background-color: lightblue;
                 text-align: center;
                 width: 900px;
-                height: 3600px;
+                height: 3251px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -19,10 +20,35 @@
                      border: 1px solid black;
                      padding-top: 50px;
             }
+            #myBtn {
+                    display: none; /* Hidden by default */
+                    position: fixed; /* Fixed/sticky position */
+                    bottom: 20px; /* Place the button at the bottom of the page */
+                    right: 30px; /* Place the button 30px from the right */
+                    z-index: 99; /* Make sure it does not overlap */
+                    border: none; /* Remove borders */
+                    outline: none; /* Remove outline */
+                    background-color: lightseagreen; /* Set a background color */
+                    color: white; /* Text color */
+                    cursor: pointer; /* Add a mouse pointer on hover */
+                    padding: 15px; /* Some padding */
+                    border-radius: 10px; /* Rounded corners */
+                    font-size: 30px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: lightslategray; /* Add a background color on hover */
+  }
         </style>
 </head>
 <body>
     <div class="textborder">
+        <div class="topnav">
+            <a href="./index.html">Goofy ahh dogs</a>
+            <a class="active" href="./indexcat.html">Goofy ahh cats</a>
+            <a href="https://github.com/vpanenko">GitHub</a>
+            <a href="https://www.instagram.com/bxshwt/">Instagram</a>
+          </div>
         <h1>Goofy ahh cat list</h1>
         <h2>idk and idc about cat breeds but ik that they're goofy</h2>
              <p>Look at those buds </p>
@@ -47,14 +73,10 @@
                 <img src="./images/cat5.jpg" alt="yeet"
                 width="850px" height="250px"> <h2>moaya hot!!</h2>
             </div>
-            <h1> no way u still alive then u can take a look at goofy dogs and return to this page </h1>
-            <a href="./index.html">
-                <input type="button" value="Goofy ahh dogs" />
-                </a>
-                <h2>Also u can visit my GitHub page</h2>
-                <a href="https://github.com/vpanenko"> <img src="./images/githubicon512x512.webp" alt="githubicon"
-                   style="width: 128px; height: 128px;">
-                </a>    
+
         </div>
-</body>
+        <div class="#myBtn">
+        <button onclick="topFunction()" id="#myBtn" title="Go to top">to top</button>
+            </div>
+    </body>
 </html>
