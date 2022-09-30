@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:larger;
-    background-image: url(./istockphoto-856678994-612x612.jpg);
+    background-image: url(./images/istockphoto-856678994-612x612.jpg);
     
 }
 h1{
@@ -18,4 +18,8 @@ p{
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+}
+
+a {
+    color: wheat;
 }
